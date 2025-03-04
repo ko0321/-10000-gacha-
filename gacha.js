@@ -1,13 +1,28 @@
 const menu = [
-    { name: "ミラノ風ドリア", price: 300 },
-    { name: "ペペロンチーノ", price: 400 },
-    { name: "マルゲリータピザ", price: 500 },
-    { name: "シーフードパスタ", price: 600 },
-    { name: "ティラミス", price: 400 },
-    { name: "エスカルゴのオーブン焼き", price: 400 },
-    { name: "プロシュート", price: 500 },
-    { name: "ラムの串焼き", price: 600 },
-    { name: "ドリンクバー", price: 200 }
+        { name: "Channel U ツアーTシャツM", price: 3800, upperlimit : 4.0},
+        { name: "Channel U ツアーTシャツL", price: 3800, upperlimit : 4.0},
+        { name: "Channel U ツアーTシャツXL", price: 3800, upperlimit : 4.0},
+        { name: "Channel U ツアータオル", price: 2200, upperlimit : 4.0},
+        { name: "Channel  U ツアーアクリルキーホルダー", price: 800, upperlimit : 4.0},
+        { name: "Channel U ジャケ写Tシャツ(ビッグシルエット)M", price: 4200, upperlimit : 4.0},
+        { name: "Channel U ジャケ写Tシャツ(ビッグシルエット)XL", price: 4200, upperlimit : 4.0},
+        { name: "Channel U ツアーラバーバンドオーロラ", price: 600, upperlimit :4.0},
+        { name: "Channel U ツアーラバーバンドクロ", price: 600, upperlimit : 4.0},
+        { name: "ChannelU ツアーマグネット", price: 4500, upperlimit : 4.0},
+        { name: "PLAYER 1Tシャツ(ビッグシルエット)M", price: 4200, upperlimit : 4.0},
+        { name: "PLAYER 1Tシャツ(ビッグシルエット)XL", price: 4200, upperlimit:4.0},
+        { name: "PLAYER 1ミトン", price: 2000, upperlimit :4.0},
+        { name: "PLAYER 1巾着ポーチ", price: 1500, upperlimit : 4.0},
+        { name: "ブロッコリー＆カリフラワーTシャツM", price: 3800, upperlimit : 4.0},
+        { name: "ブロッコリー＆カリフラワーTシャツL", price: 3800, upperlimit : 4.0},
+        { name: "ブロッコリー＆カリフラワーTシャツXL", price: 3800, upperlimit : 4.0},
+        { name: "ブロッコリー＆カリフラワーブランケット", price: 3500, upperlimit : 4.0},
+        { name: "ブロッコリー＆カリフラワークッション", price: 3500, upperlimit : 4.0},
+        { name: "PLAYER 1セットアップ(ナイロン)M", price: 12000, upperlimit : 4.0},
+        { name: "PLAYER 1セットアップ(ナイロン)XL", price: 12000, upperlimit : 4.0},
+        { name: "Channel U ツアーステッカーセット", price: 900,  upperlimit : 4.0},
+        { name: "メッシュバッグ2025", price: 1000, upperlimit : 4.0 },
+        { name: "ガチャ", price: 500, upperlimit : 10 }
 ];
 
 document.getElementById("gacha-button").addEventListener("click", function() {
