@@ -24,8 +24,8 @@ document.getElementById("gachaButton").addEventListener("click", function() {
         { name: "PLAYER 1セットアップ(ナイロン)XL", price: 12000, upperlimit : 4},
         { name: "Channel U ツアーステッカーセット", price: 900,  upperlimit : 4},          // 調整用の低価格商品
         { name: "メッシュバッグ", price: 1000, upperlimit : 4 },
-        { name: "ガチャ", price: 150, upperlimit : 10 }          // 調整用の低価格商品
-    ];
+        { name: "ガチャ", price: 500, upperlimit : 10 }          // 調整用の低価格商品
+];
     
     let selectedItems = [];
     let total = 0;
