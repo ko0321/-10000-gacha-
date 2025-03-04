@@ -26,7 +26,7 @@ const menu = [
 ];
 
 document.getElementById("gacha-button").addEventListener("click", function() {
-    let budget = 1000;
+    let budget = 10000;
     let selectedItems = [];
     let totalPrice = 0;
 
